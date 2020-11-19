@@ -1,0 +1,36 @@
+.login-bg {
+    background-image: url('../img/logo.png');
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+}
+
+.login-bg-filter {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+}
+
+.login-card-body label {
+    width: 100%;
+}
+
+.login-card-body .logo {
+    max-height: 80px;
+    margin-left: 50%;
+    -webkit-transform: translate(-50%);
+    transform: translate(-50%);
+    margin-bottom: 20px;
+}
+
+.login-card-body a, .login-card-body a:visited {
+    color: #9f2a15;
+}
+
+.login-card-body a:hover {
+    color: #d44a32;
+}
+
+.error-message {
+    color: #f00 !important;
+}
