@@ -33,7 +33,7 @@
                 <td><?= $log->has('usuario') ? $this->Html->link($log->usuario->nome, ['controller' => 'Usuarios', 'action' => 'view', $log->usuario->id]) : '' ?></td>
                 <td><?= h($log->table_name) ?></td>
                 <td><?= h($log->old_data) ?></td>
-                <td><?= $this->Number->format($log->new_data) ?></td>
+                <td><?= h($log->new_data) ?></td>
                 <td><?= h($log->created) ?></td>
                 <td class="actions">
                     <?= $this->Html->link(__('View'), ['action' => 'view', $log->id]) ?>
